@@ -14,70 +14,60 @@
         background: #fff;
         line-height: 1.6;
     }
-
     img {
         display: block;
         max-width: 180px;
         border-radius: 6px;
         margin: 0 auto 20px auto;
     }
-
-    /* Header Block */
-    .header {
+    .name-container {
         text-align: center;
-        margin-bottom: 15px;
     }
-
-    .header h1 {
-        font-size: 2.2rem;
+    .name-container h1 {
+        font-size: 2rem;
         margin: 0;
-        white-space: nowrap; /* keep Arabic together */
+        display: inline-block;
     }
-
-    .header h3 {
-        font-size: 1.1rem;
-        color: #555;
-        margin-top: 8px;
+    .name-container span {
+        display: inline-block;
+        margin-left: 8px;
+        font-size: 1.8rem;
         font-weight: normal;
     }
-
-    /* Responsive Adjustments */
     @media (max-width: 600px) {
-        .header h1 {
-            font-size: 1.6rem;
-        }
-        .header h3 {
-            font-size: 0.95rem;
+        .name-container h1, .name-container span {
+            display: block;
+            margin: 0;
         }
     }
-
+    h3 {
+        text-align: center;
+        font-weight: normal;
+        color: #555;
+        margin-top: 8px;
+        font-size: 1.1rem;
+    }
     h2 {
         margin-top: 35px;
         font-size: 1.4em;
         color: #2c3e50;
     }
-
     p {
         font-size: 1.05em;
     }
-
     a {
         color: #0044cc;
         text-decoration: none;
     }
-
     a:hover {
         text-decoration: underline;
     }
-
     ul {
         padding-left: 18px;
     }
-
     li {
         margin-bottom: 15px;
     }
-
     footer {
         text-align: center;
         font-size: 0.9em;
@@ -90,17 +80,49 @@
 
 <img src="Ayman2.jpeg" alt="Profile Photo">
 
-<!-- Name + Title -->
-<div class="header">
-    <h1>Ayman Tibi | أيمن&nbsp;الطيبي</h1>
-    <h3>PhD Student in Economics | University of Mannheim</h3>
+<div class="name-container">
+    <h1>Ayman Tibi</h1><span>| أيمن الطيبي</span>
 </div>
+<h3>PhD Student in Economics | University of Mannheim</h3>
 
 <p style="text-align:center;">
 Email: <a href="mailto:atibi@mail.uni-mannheim.de">atibi@mail.uni-mannheim.de</a> |
 <a href="https://x.com/TibiAyman" target="_blank">X (Twitter)</a>
 </p>
 
-<p>
-Welcome! I am a PhD student in Economics at the University of Mannheim. My research interests are in development economics, public economics, trade, and political economy.
-</p>
+<p>Welcome! I am a PhD student in Economics at the University of Mannheim. My research interests are in development economics, public economics, trade, and political economy.</p>
+
+<h2><a href="CV___Ayman_Tibi (6).pdf" target="_blank">Curriculum Vitae</a></h2>
+
+<h2>Work in Progress</h2>
+<ul>
+  <li>
+    <strong>When Trade Policy is Place Based: The Economic Effects of QIZs in the Middle East</strong>
+    <span style="color:#888; font-size:0.9em;">(Draft coming soon)</span>
+    <details style="margin-top:6px;">
+      <summary style="cursor:pointer; color:#0066cc; font-size:0.95em; margin-top:5px;">Read Abstract</summary>
+      <p style="margin-top:8px; font-size:0.95em; line-height:1.5;">
+  This paper studies the economic effects of geographically targeted trade policies through the case of the Qualifying Industrial Zone (QIZ) agreements in Egypt and Jordan...
+      </p>
+    </details>
+  </li>
+
+  <li>
+    <strong>The Political Economy of Newspaper Funding in India</strong><br>
+    <em>with Pooja Singh</em>
+  </li>
+</ul>
+
+<h2>News and Upcoming Talks</h2>
+<ul>
+    <li>Presented Paper on QIZs in the YSI Workshop on Structural Change, Inequality, and Growth in Maastricht, Netherlands (June 2025)</li>
+    <li>Presented Paper on QIZs in the "Third BCFM PhD Conference" in Frankfurt, Germany (June 2025)</li>
+    <li>Participated in the 23rd Summer School in International and Development Economics in Tuscany, Italy (Sept 2024)</li>
+</ul>
+
+<footer>
+    &copy; 2025 Ayman Tibi
+</footer>
+
+</body>
+</html>
